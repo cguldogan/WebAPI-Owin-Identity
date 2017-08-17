@@ -6,6 +6,8 @@ This project is created according to this following post
 
 You need to change connection string parameter in web config file according to your environment settings.
 
+```xml
 <connectionStrings>
-    <add name="AuthContext" connectionString="Data Source=.\SQLEXPRESS;Initial Catalog=APIAuth;Integrated Security=SSPI;" providerName="System.Data.SqlClient" />
+    <add name="AuthContext" connectionString="Data Source=.\SQLEXPRESS;Initial Catalog=APIAuth;Integrated Security=SSPI;"   providerName="System.Data.SqlClient" />
   </connectionStrings>
+```
