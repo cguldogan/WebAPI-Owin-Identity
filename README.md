@@ -9,5 +9,5 @@ You need to change connection string parameter in web config file according to y
 ```xml
 <connectionStrings>
     <add name="AuthContext" connectionString="Data Source=.\SQLEXPRESS;Initial Catalog=APIAuth;Integrated Security=SSPI;"   providerName="System.Data.SqlClient" />
-  </connectionStrings>
+</connectionStrings>
 ```
